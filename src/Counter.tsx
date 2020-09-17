@@ -29,7 +29,7 @@ const Counter: React.FunctionComponent = () => {
     // }
 
     ref.current?.focus();
-    // null出なければ実行される
+    // nullでなければ実行される
 
     ref.current.focus();
   };
